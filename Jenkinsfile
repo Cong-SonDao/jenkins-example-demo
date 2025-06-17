@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         HARBOR_REGISTRY = 'registry.duypnn.com'
-        HARBOR_PROJECT = 'demo2'
+        HARBOR_PROJECT = 'demo3'
         IMAGE_NAME = 'myapp'
         IMAGE_TAG = 'latest'
         HARBOR_CREDENTIALS = 'harbor-credentials-id' // ID của credentials trong Jenkins
